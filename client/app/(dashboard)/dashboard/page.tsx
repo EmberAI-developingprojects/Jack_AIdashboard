@@ -7,6 +7,13 @@ export default function DashboardPage() {
         Камерын шууд мэдээлэл
       </h3>
       <CameraList />
+
+      <div>
+        <iframe
+          src={process.env.WEBRTC_URL}
+          className="w-full h-[400px] rounded-xl"
+        />
+      </div>
     </div>
   );
 }
