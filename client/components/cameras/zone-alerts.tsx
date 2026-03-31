@@ -12,7 +12,7 @@ import { db } from "@/lib/firebase";
 import { toast } from "sonner";
 import { ShieldAlert, ShieldCheck } from "lucide-react";
 
-const CAMERA_ID = "camera_1";
+const CAMERA_ID = "Jack coffee shop";
 
 export function ZoneAlerts() {
   const seen = useRef(new Set<string>());
