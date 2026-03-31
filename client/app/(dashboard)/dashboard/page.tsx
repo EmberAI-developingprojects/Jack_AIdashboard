@@ -9,10 +9,10 @@ export default function DashboardPage() {
       <CameraList />
 
       <div>
-        <iframe
+        {/* <iframe
           src={process.env.WEBRTC_URL}
           className="w-full h-[400px] rounded-xl"
-        />
+        /> */}
       </div>
     </div>
   );
